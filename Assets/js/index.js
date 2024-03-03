@@ -1,30 +1,13 @@
-var divisor = document.getElementById("divisor"),
-handle = document.getElementById("handle"),
-slider = document.getElementById("slider");
-
-function moveDivisor() {
-handle.style.left = slider.value+"%";
-divisor.style.width = slider.value+"%";
-}
-
-window.onload = function() {
-moveDivisor();
-};
+const container = document.querySelector('.ab-container');
+document.querySelector('.ab-slider').addEventListener('input', (e) => {
+  container.style.setProperty('--position', `${e.target.value}%`);
+})
 
 // 
-var divisor1 = document.getElementById("divisor1"),
-handle1 = document.getElementById("handle1"),
-slider1 = document.getElementById("slider1");
-
-function moveDivisor1() {
-handle1.style.left = slider1.value+"%";
-divisor1.style.width = slider1.value+"%";
-}
-
-window.onload = function() {
-    moveDivisor();
-    moveDivisor1(); 
-};
+const container1 = document.querySelector('.ab1-container');
+document.querySelector('.ab1-slider').addEventListener('input', (e) => {
+  container1.style.setProperty('--position', `${e.target.value}%`);
+})
 
 // rivew slider 
 

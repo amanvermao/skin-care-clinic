@@ -306,7 +306,10 @@
                  <div class="col-md-5">
                      <div class="contaner">
                          <div class="card">
+                            <div class="card-img-wrapper">
                            <img src="Assets/images/card-img.jpg" alt="" />
+                           <div class="overlay"></div>
+                        </div>
                            <div class="intro">
                              <h1>FACE TREATMENTS</h1>
                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio</p>
@@ -325,7 +328,10 @@
          
                      <div class="contaner">
                          <div class="card">
-                           <img src="Assets/images/card-img.jpg" alt="" />
+                            <div class="card-img-wrapper">
+                                <img src="Assets/images/card-img.jpg" alt="" />
+                                <div class="overlay1"></div>
+                             </div>
                            <div class="intro">
                              <h1>FACE TREATMENTS</h1>
                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio</p>
@@ -337,16 +343,56 @@
                              </div>
                            </div>
                          </div>
-                       </div>
-                     
+                       </div>    
                  </div>
+                 <div class="col-md-5">
+                    <div class="contaner">
+                        <div class="card">
+                           <div class="card-img-wrapper">
+                               <img src="Assets/images/card-img-2.jpg" alt="" />
+                               <div class="overlay"></div>
+                            </div>
+                          <div class="intro">
+                            <h1>FACE TREATMENTS</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio</p>
+                            <div class="btn-wrapper1">
+                              <div class="card-arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                              </div>
+                              <span style="font-size: 25px;">Know More</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-md-5">
+                    <div class="contaner">
+                        <div class="card">
+                           <div class="card-img-wrapper">
+                               <img src="Assets/images/card-img-2.jpg" alt="" />
+                               <div class="overlay1"></div>
+                            </div>
+                          <div class="intro">
+                            <h1>FACE TREATMENTS</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio</p>
+                            <div class="btn-wrapper1">
+                              <div class="card-arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                              </div>
+                              <span style="font-size: 25px;">Know More</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+
              </div>
             </div>
              </section>
 
     <section class="pb-100">
         <div class="treatment-bottom">
-            <div class="row d-flex justify-content-center gap-5">
+            <div class="d-flex justify-content-center gap-5">
                 <div class="col-5 tritment-img-wrapper">
                     <img src="Assets/images/tritment-img-1.webp" alt="">
                     <div class="tritment-strip">
@@ -378,29 +424,71 @@
             </div>
             </div>
 
-            <div class=" row portfolio-main">
-                <div class="col-6 example-1">
-                    <div class="container">
-                        <div id="comparison">
-                          <figure>
-                            <div id="handle"></div>
-                            <div id="divisor"></div>
-                          </figure>
-                          <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+            <div class="row portfolio-main">
+                <div class="col-md-6 example-1">
+                    <main>
+                        <div class="ab-container">
+                          <div class="ab-image-container">
+                            <img
+                              class="ab-image-before ab-slider-image"
+                             src="Assets/images/m-before.png"
+                              alt="color photo"
+                            />
+                            <img
+                              class="ab-image-after ab-slider-image"
+                              src="Assets/images/m-after.png"
+                              alt="black and white"
+                            />
+                          </div>
+                          <!-- step="10" -->
+                          <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="50"
+                            aria-label="Percentage of before photo shown"
+                            class="ab-slider"
+                          />
+                          <div class="ab-slider-line" aria-hidden="true"></div>
+                          <div class="ab-slider-button" aria-hidden="true">
+                            Drag
+                          </div>
                         </div>
-                       </div>
+                      
+                      </main>
                 </div>
                 
-                <div class="col-6 example-2">
-                    <div class="container1">
-                        <div id="comparison1">
-                          <figure class="figure">
-                            <div id="handle1"></div>
-                            <div id="divisor1"></div>
-                          </figure>
-                          <input type="range" min="0" max="100" value="50" id="slider1" oninput="moveDivisor1()">
+                <div class="col-md-6 example-2">
+                    <main>
+                        <div class="ab1-container">
+                          <div class="ab1-image-container">
+                            <img
+                              class="ab1-image-before ab1-slider-image"
+                             src="Assets/images/w-before (2).png"
+                              alt="color photo"
+                            />
+                            <img
+                              class="ab1-image-after ab1-slider-image"
+                              src="Assets/images/w-after.png"
+                              alt="black and white"
+                            />
+                          </div>
+                          <!-- step="10" -->
+                          <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="50"
+                            aria-label="Percentage of before photo shown"
+                            class="ab1-slider"
+                          />
+                          <div class="ab1-slider-line" aria-hidden="true"></div>
+                          <div class="ab1-slider-button" aria-hidden="true">
+                            Drag
+                          </div>
                         </div>
-                       </div>
+                      
+                      </main>
                 </div>
                 
 
