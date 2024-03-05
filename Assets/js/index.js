@@ -33,4 +33,43 @@ let currentSlide = 0;
 
 
 
-    
+    //  s-card animation
+
+const sections = document.querySelectorAll('section');
+const cardContainers = document.querySelectorAll('.card-container');
+const options = {
+  root: null,
+  rootMargin: '0px 0px -100px 0px', 
+  threshold: 0.01,  
+};
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    const cardContainer = entry.target;
+    const card = cardContainer.querySelector('.card');
+    const cardCover = cardContainer.querySelector('.card-cover');
+
+    if (entry.isIntersecting) {
+      card.classList.add('in-view');
+      cardCover.style.transform = 'translateY(100%)'; 
+
+   
+      triggerAdditionalFunction();
+    } else {
+      card.classList.remove('in-view');
+      cardCover.style.transform = 'translateY(0)'; 
+    }
+  });
+}, options);
+
+cardContainers.forEach(container => {
+  observer.observe(container);
+});
+
+function triggerAdditionalFunction() {
+
+  console.log('Card is now 5% in view!'); 
+}
+
+// 
+
