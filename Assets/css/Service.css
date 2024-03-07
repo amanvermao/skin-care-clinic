@@ -36,7 +36,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 .s-card-text {
