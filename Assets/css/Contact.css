@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.header{
+    height: 450px;
+}
+
+.contact-main-title-section{
+    position: static;
+    clear: both;
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+.main-title-section-container{
+    clear: both;
+  float: left;
+  margin: 0;
+  width: 100%;
+  position:relative ;
+  bottom: 40px;
+}
+.contaner{
+    padding: 0 30px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main-title-section{
+  width: 100%;
+  position: relative;
+
+}
+.main-title-section h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 55px;
+  text-transform: none;
+  margin: 0 0 5px;
+  word-break: break-all;
+  line-height: 1.28;
+  font-weight: 700;
+
+}
+.bradcrumbs{
+    clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+.bradcrumbs a{
+  color: rgb(145, 47, 158);
+  list-style: none;
+  text-decoration: none;
+
+}
+.current{
+background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+.main-title-section-bg{
+    background-image: url("https://sirpi.wpengine.com/wp-content/uploads/2023/05/cn-bc-bg-scaled.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+height:430px !important;
+overflow: hidden;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: -1;
+pointer-events: none;
+
+}
+.main-title-section-bg ::after{
+    content: "";
+    height: 100% !important;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    pointer-events: none;
+    
+  }
+
+
+    /* contact main */
+
+.contact-left{
+    margin-left: 10px;
+    padding: 10px;
+  
+
+}
+
+.con-left-top-card {
+  position: relative; /* Added position relative */
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("https://sirpi.wpengine.com/wp-content/uploads/2023/05/Sirpi-Contact-us-img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 370px;
+  bottom: 10px;
+}
+
+.con-overlay {
+  position: absolute;
+  background-color: rgba(131,0,86,255);
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  top: 0; /* Added to cover the entire card */
+  left: 0; /* Added to cover the entire card */
+}
+
+
+.con-left-contant{
+    display: flex;
+    padding: 25px;
+    gap: 2.3rem;
+    position: relative;
+
+}
+.con-left-icone i{
+    font-size: 120px;
+
+
+}
+
+.con-left-texts h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    
+}
+
+.con-left-texts span{
+    font-size: 17px;
+    
+}
+
+.con-left-bottom{
+  padding-top: 70px;
+
+}
+.con-left-bon-heading h3{
+  font-weight: 30px;
+  font-weight: 600;
+  padding-bottom: 30px;
+ 
+}
+.con-details{
+
+}
+.con-detail-left{
+
+}
+.con-detail-left-text1{
+ display: flex;
+ gap: 2rem;
+ align-items: center;
+ text-align: center;
+ padding-bottom: 15px;
+
+
+}
+.con-detail-left-text1 i{
+  font-size: 20px;
+  color: rgba(131,0,86,255);
+  
+ }
+
+ .con-detail-left-text1 span{
+  font-size: 20px;
+ 
+ }
+
+
+
+
+
+
+.contact-right{
+  width: 100%; 
+  padding: 20px;
+
+}
+.conatact-form-wraper{
+   border:1px solid #64453857;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: white;
+overflow: hidden;
+
+
+}
+
+.contact-form{
+    width: 600px;
+    padding-bottom: 80px; 
+}
+
+
+
+
+@keyframes line-path {
+  from {
+      stroke-dashoffset: 360;
+  }
+  to {
+      stroke-dashoffset: 0;
+  }
+}
+
+.con-svg-wrapper{
+  position: relative;
+  right: -439px;
+  bottom: 189px;
+
+}
+.con-svg-wrapper svg{
+   overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 338px;
+  transform: rotate(50deg);
+  
+}
+
+
+.con-svg-wrapper2{
+  position: relative;
+  right: 919px;
+  bottom: -194px;
+
+}
+.con-svg-wrapper2 svg{
+   overflow: hidden;
+  position: absolute;
+  z-index: 11;
+  width: 338px;
+  
+}
+.con-form-top{
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+}
+.con-form-top-text{
+ 
+
+}
+
+.con-form-top-text1{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 50px;
+  
+}
+.con-form-top-text h1{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+.con-form-top-text3{
+  font-size: 20px;
+  
+}
+.con-form-main{
+
+}
+.con-form-main{
+
+}
+.con-form-main input{
+  border: none;
+  outline: none;
+  background: transparent;
+  color: black;
+  width: 320px; 
+  
+}
+.fname-input{
+  border-bottom: 1px solid rgba(131,0,86,255);
+ font-size: large;
+ color: black;
+ height: 35px;
+
+
+}
+.fname-input input{
+ border: none;
+  outline: none;
+  background: transparent;
+  color: black;  
+
+}
+.lname-input{
+  border-bottom: 1px solid rgba(131,0,86,255);
+  font-size: large;
+  color: black;
+  height: 35px;
+
+}
+.lname-input input{
+
+}
+.mn-input{
+  border-bottom: 1px solid rgba(131,0,86,255);
+  font-size: large;
+  color: black;
+  height: 35px;
+
+}
+.mn-input input{
+
+}
+.email-input{
+  border-bottom: 1px solid rgba(131,0,86,255);
+  font-size: large;
+  color: black;
+  height: 35px;
+
+}
+.email-input input{
+
+}
+.ai-input{
+  border-bottom: 1px solid rgba(131,0,86,255);
+  font-size: large;
+  color: black;;
+  width: 100%;
+
+}
+.ai-input textarea{
+  border: none;
+  outline: none;
+  background: transparent;
+  color: black; 
+  width: 100%;
+  height: 35px;
+}
+
+.con-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.con-btn button{
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: rgba(131,0,86,255);
+  height: 45px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+letter-spacing: 1.5px;
+  
+}
+
+
+
