@@ -389,9 +389,7 @@ gap: 2px;
   overflow: hidden;
   position: absolute;
   z-index: -1;
-  width: 938px;
-
-  
+  width: 938px; 
 }
 
 .svg-wrapper2 {
