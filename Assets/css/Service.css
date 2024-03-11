@@ -27,6 +27,7 @@
 .service-top-texts3 {
   font-size: 20px;
 }
+/* 
 .services-main1{
     display: flex;
     justify-content: center;
@@ -59,7 +60,7 @@
   letter-spacing: 3px;
 }
 
-/* zoom on hover  */
+
 
 .img-wrapper {
   width: 316px;
@@ -75,7 +76,7 @@
 .inner-img:hover {
   transform: scale(1.1);
 }
-/*  */
+
 .s-card {
   position: relative;
   bottom: 25px;
@@ -100,4 +101,4 @@
 
 .h-a-img {
   width: 100%;
-}
+} */
