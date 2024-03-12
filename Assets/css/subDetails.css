@@ -1,50 +1,142 @@
-.lhr-banner{
+.d-banner-img{
     width: 100%;
-    height: 500px;
+    display: flex;
+justify-content: center;
+align-items: center;
+  position: relative;
+  bottom: 50px;
+  overflow: hidden;
+
+}
+.d-banner-img .dp-overlay{
+position: absolute;
+background-color: rgb(7, 7, 7);
+opacity: 0.5;
+z-index: 1;
+width: 100%;
+height: 500px;
+top: 0;
+
+}
+.dp-overlay-text{
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 11;
+    opacity: 1;
+    color: white;
+    
+}
+.dp-overlay-text h1{
+   font-size: 60px;
+   font-weight: 600;
+    
 }
 
-.lhr-top-texts{
-    padding-top: 50px;
+.d-banner-img img{
+    width: 100%;
+  height: 500px;
+ transform: scaleY(1.4);
+
 
 }
-.lhr-top-texts h1{
-    font-size: 60px;
+
+.dp-img-wrapper{
+    width: 601px;
+    height: 400px;
+    overflow: hidden;
+}
+.dp-img-wrapper img{
+    width: 601px;
+    height: 400px;
+   transition: 0.5s; 
+}
+
+.dp-img-wrapper img:hover {
+    transform: scale(1.1);
+  }
+
+  .dp-img-wrapper2{
+    height: 517px;
+    width: 100%;  
+    overflow: hidden;
+
+  }
+.dp-img-wrapper2 img{
+    transition: 0.5s; 
+    height: 517px;
+   
+    
+ }
+ .dp-img-wrapper2 img:hover{
+    transform: scale(1.1);   
+ }
+
+.dp-pb{
+    padding-bottom: 100px;
+}
+
+
+.d-text-1 h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;  
+}
+.d-text-1 span{
+    font-size: 18px;
+
+}
+
+.d-text-2{
+
+
+}
+.d-text-2 h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+    
+}
+.d-text-2 span{
+    font-size: 18px;
+    
+}
+.d-text-2-list ul{
+    list-style: none;
+
+}
+.d-text-2-list ul li{
+    font-size: 18px;
+    
+}
+.d-text-3 h1{
+    font-size: 40px;
     font-weight: 600;
     
 }
-.lhr-top-texts span{
-    font-size: 20px;
-    
+.d-text-3 span{
+    font-size: 18px;
 }
-.lhr-top-texts2{
-    padding-top: 40px;
-}
-
-.lhr-top-texts2 h2{
-   font-size: 40px;
-   font-weight: 600;
-}
-.lhr-top-texts2 span{
-    font-size: 20px;
-  
-}
-
-.lhr-top-texts3{
-    padding-top: 40px;
-    padding-bottom: 50px;
+.dp-img-wrapper3{
+width: 100%;
+height: 510px;
+overflow: hidden;
 
 }
-.lhr-top-texts3 h1{
-    font-size: 40px;
-   font-weight: 600;
+.dp-img-wrapper3 img{
+    height: 510px;
+    transition: 0.5s; 
     
 }
-.lhr-top-texts3 span{
-    font-size: 20px;
+.dp-img-wrapper3 img:hover{
+   
+    transform: scale(1.1);  
     
 }
-.a-b-bottom span{
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2px;    
+.d-text-3{
+
+}
+.d-text-3 span{
+    font-size: 17px;
+    
 }
