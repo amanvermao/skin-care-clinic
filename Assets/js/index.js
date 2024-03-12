@@ -69,7 +69,26 @@ cardContainers.forEach(container => {
 function triggerAdditionalFunction() {
 
   console.log('Card is now 5% in view!'); 
+
 }
 
-// 
+
+// insta slider
+
+
+let currentIndex = 0;
+    const slides1 = document.querySelectorAll('.slide11');
+    const totalSlides = slides1.length;
+
+    function shiftSlides() {
+      currentIndex = (currentIndex + 1) % (totalSlides - 4); // Adjust totalSlides - 2
+      updateSlider();
+    }
+
+    function updateSlider() {
+      const newPosition = -currentIndex * 20 + '%'; // Each slide takes up 20% of the container width
+      document.querySelector('.slider11').style.transform = `translateX(${newPosition})`;
+    }
+
+    setInterval(shiftSlides, 2000); // Shift slide every 2 seconds
 

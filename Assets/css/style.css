@@ -1343,17 +1343,28 @@ main {
 
 /* insta section */
 
-.insta-post {
+.slider-container11 {
   width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
 }
 
-.insta-post img {
-  width: 100%;
-  height: 300px;
-}
-.inta-post-section {
+.slider11 {
   display: flex;
+  transition: transform 0.5s ease-in-out;
 }
+
+.slide11 {
+  flex: 0 0 20%; /* Each slide takes up 20% of the container width */
+}
+.slide11 img {
+  width: 100%;
+  height: auto;
+}
+
+
+
 
 /* responsive code  */
 
