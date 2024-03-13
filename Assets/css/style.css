@@ -661,7 +661,7 @@ a {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 60px;
-  background-color: #3b281fda;
+  background-color: #79225c;
   background-image: url(https://sirpi.wpengine.com/wp-content/uploads/2023/05/Sirpi-Col-Img-overlay-1.png);
   color: white;
 }
@@ -700,6 +700,10 @@ a {
 
 .home-about-bottom {
   padding-top: 20px;
+}
+.home-about-bottom button {
+  background-color: white;
+  color: #79225c;
 }
 
 .line {
@@ -826,7 +830,7 @@ a {
 }
 
 .intro h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -925,9 +929,35 @@ a {
 
 /* middle strip */
 .middle-strip {
-  height: 10vh;
+  height: 90px;
   background-color: #830056;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
 }
+.home-strip-content{
+
+}
+.home-strip-content span{
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+
+
+}
+.home-strip-content-btn{
+ margin-left: 40px;
+
+}
+.home-strip-content-btn .strip-btn{
+
+background-color: white;
+color: #79225c;
+}
+
 
 /* portfolito afterbefore */
 
@@ -1141,12 +1171,11 @@ main {
 }
 .exp-left-section {
   width: 50%;
-  background-color: #3b281fda;
+  background-color: #79225c;
   background-image: url(https://sirpi.wpengine.com/wp-content/uploads/2023/05/Sirpi-Col-Img-overlay-1.png);
   color: white;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 60px;
 }
 .exp-left-section hr {
   padding-bottom: 30px;
@@ -1189,12 +1218,12 @@ main {
   margin-right: 60px;
   text-align: left;
   gap: 2rem;
-  padding-bottom: 42px;
+  padding-bottom: 30px;
 }
 .exp-option-icone-wraper {
-  width: 100px;
-  height: 80px;
-  background-color: brown;
+  width: 90px;
+  height: 90px;
+  background-color: #b63089;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -1202,9 +1231,17 @@ main {
   color: white;
   font-size: 50px;
 }
+.exp-option-icone-wraper img {
+ height: 70px;
+ width: 70px;
+}
 .exp-option-text {
   display: flex;
   flex-direction: column;
+}
+.exp-option-text span {
+  font-size: 32px;
+  text-transform: uppercase; 
 }
 .exp-option-text1 {
   font-size: 25px;
@@ -1362,6 +1399,76 @@ main {
   width: 100%;
   height: auto;
 }
+
+
+
+
+
+  /* footer */
+  .footer-wraper{
+    width: 100%;
+    height: 500px;
+    /* background-color: rgb(84, 33, 32); */
+   background-color: #5B0539;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .f-col{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+  }
+.f-col h3{
+   font-size: 21px;
+   font-weight: 700;
+  }
+.f-col span{
+    font-size: 18px;
+    line-height: 45px;
+   
+
+  }
+
+.f-logo img{
+    height: 200px;
+    width: 200px;   
+}
+.f-l-text{
+    display: flex;
+    gap: 20px;
+    align-items: center;  
+    width: 340px;
+}
+.footer-logo-contant{
+    margin-left: 30px;
+    
+}
+.f-input-wraper{
+    border-bottom: 1px solid white;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    width: 315px;
+    
+}
+.f-input-wraper input{
+    border: none;
+    outline: none;
+    background: transparent;
+   color: white;
+    
+}
+.f-input-wraper i{
+  font-size: 30px;
+  color: white;
+  float: right;
+    
+}
+
+
+
 
 
 
