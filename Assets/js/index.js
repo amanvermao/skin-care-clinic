@@ -92,3 +92,116 @@ let currentIndex = 0;
 
     setInterval(shiftSlides, 2000); // Shift slide every 2 seconds
 
+
+
+    // responsive sidebar js
+
+
+    function showmodal() {
+      document.querySelector(".body-overlay").classList.add("showoverlay");
+      document.querySelector(".details").classList.add("showdetails");
+    }
+    function closemodal() {
+      document.querySelector(".body-overlay").classList.remove("showoverlay");
+      document.querySelector(".details").classList.remove("showdetails");
+    }
+
+
+
+
+
+
+
+
+
+    
+
+// fade scroll
+
+window.addEventListener('scroll', reveal);
+
+function reveal() {
+  const boxes = document.querySelectorAll('.box');
+  boxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (boxTop < windowHeight * 0.75) {
+      box.classList.add('visible');
+    } else {
+      box.classList.remove('visible');
+    }
+  });
+}
+
+// right fade on scroll
+
+window.addEventListener('scroll', reveal1);
+
+function reveal1() {
+  const boxes = document.querySelectorAll('.box1');
+  boxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (boxTop < windowHeight * 0.75) {
+      box.classList.add('visible1');
+    } else {
+      box.classList.remove('visible1');
+    }
+  });
+}
+// left fade
+
+window.addEventListener('scroll', reveal2);
+
+function reveal2() {
+  const boxes = document.querySelectorAll('.box2');
+  boxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (boxTop < windowHeight * 0.75) {
+      box.classList.add('visible2');
+    } else {
+      box.classList.remove('visible2');
+    }
+  });
+}
+
+// 
+window.addEventListener('scroll', reveal3);
+
+function reveal3() {
+  const boxes = document.querySelectorAll('.box3');
+  boxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (boxTop < windowHeight * 0.75) {
+      box.classList.add('visible3');
+    } else {
+      box.classList.remove('visible3');
+    }
+  });
+}
+// 
+window.addEventListener('scroll', reveal4);
+
+function reveal4() {
+  const boxes = document.querySelectorAll('.box4');
+  boxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (boxTop < windowHeight * 0.75) {
+      box.classList.add('visible4');
+    } else {
+      box.classList.remove('visible4');
+    }
+  });
+}
+
+
+
+
+
+
+// detail sidebar
+
+

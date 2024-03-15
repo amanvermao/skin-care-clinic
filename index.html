@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="Assets/css/style.css" />
+    <link rel="stylesheet" href="Assets/css/responsive.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -26,18 +27,18 @@
     <div class="top-header-wraper">
       <div class="container-fluid">
         <div class="row top-header">
-          <div class="col-6">
+          <div class="col-10">
             <div class="top-header-info">
               <div class="top-header-info-1">
-                <span>+91 998 755 8210</span>
+                <span style="font-weight: bold;">+91 998 755 8210</span>
                 <!-- <span>info@example.com</span> -->
               </div>
               <div class="top-header-info-2">
-                Ground floor, Virat CHS, D-41, Sai Rd, Gokuldham Colony, Goregaon, Mumbai
+             <span style="font-weight: bold;">   Ground floor, Virat CHS, D-41, Sai Rd, Gokuldham Colony, Goregaon, Mumbai</span>
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-2">
             <div class="social-icones">
               <div class="icones-wraper">
                 <div class="icones">
@@ -79,7 +80,7 @@
                      <li><a href="./DetailsPages/Lasers.html">Lasers</a>
                         <ul class="submenue2">
                             <li> <a href="/DetailsPages/Subdetail/Lasers/LHR.html">Laser Hair removal</a></li>
-                            <li> <a href="#">tattoo removal</a></li>
+                            <li> <a href="/DetailsPages/Subdetail/Lasers/TR.html">tattoo removal</a></li>
                             <li> <a href="#">stretch marks</a></li>
                             <li> <a href="#">laser toning</a></li>
                             <li> <a href="#">hifu</a></li>
@@ -211,9 +212,10 @@
           <div class="top-service1 element1 container">
             <div class="top-services-icone-wrapper">
               <img
+              class="top-icons"
                 src="Assets/images/icones/ft-icone.png"
                 alt=""
-                style="color: white; width: 70px; height: 70px"
+                style="color: white;"
               />
             </div>
 
@@ -224,22 +226,26 @@
           <div class="top-service1">
             <div class="top-services-icone-wrapper">
               <img
+
+              class="top-icons1"
+              class="top-services-icone"
                 src="Assets/images/icones/st-icone.png"
                 alt=""
-                style="color: white; width: 60px; height: 60px"
+                style="color: white;"
               />
             </div>
 
-            <div class="top-services-text-erapper">
+            <div class="top-services-text-werapper">
               <span class="top-services-text">SKIN TREATMENTS</span>
             </div>
           </div>
           <div class="top-service1">
             <div class="top-services-icone-wrapper">
               <img
+              class="top-icons1"
                 src="Assets/images/icones/lt-icone.png"
                 alt=""
-                style="color: white; width: 60px; height: 60px"
+                style="color: white;"
               />
             </div>
 
@@ -250,9 +256,10 @@
           <div class="top-service1">
             <div class="top-services-icone-wrapper">
               <img
+              class="top-icons1"
                 src="Assets/images/icones/ht-icone.png"
                 alt=""
-                style="color: white; width: 60px; height: 60px"
+                style="color: white;"
               />
             </div>
 
@@ -267,7 +274,7 @@
     <section class="pb-100">
       <div class="container-fluid appointment-section">
         <div class="row">
-          <div class="col-8">
+          <div class="col-lg-8">
             <div class="svg-wrapper2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -296,7 +303,7 @@
                 </g>
               </svg>
             </div>
-            <form action="">
+            <form action="" class="box hidden">
               <div class="form-top-part">
                 <div class="name">
                   <input type="text" placeholder="NAME" />
@@ -316,7 +323,7 @@
             </form>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="svg-wrapper">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -345,7 +352,7 @@
                 </g>
               </svg>
             </div>
-            <div class="b-slot-content">
+            <div class="b-slot-content box2 hidden2">
               <span class="b-slot-text">Book Your slot</span>
               <button class="appointment-btn">Appointment</button>
             </div>
@@ -402,7 +409,7 @@
                 <span class="s-card-text2">SKIN TREATMENTS</span>
               </div>
             </div>
-            <div class="s-card1">
+            <div class="s-card1 s-main-card">
               <div class="img-wrapper">
                 <img class="inner-img" src="Assets/images/service-img-1.webp" />
               </div>
@@ -419,7 +426,7 @@
       <section class="pb-100">
         <div class="treatment-bottom">
           <div
-            class="d-flex justify-content-center gap-5"
+            class="d-flex justify-content-center gap-5 treatment-bottom-wrapper"
             style="padding-top: 100px"
           >
             <div class="col-md-5 tritment-img-wrapper">
@@ -520,10 +527,11 @@
       <section class="pb-100">
         <div class="treatment-cards">
           <div
-            class="row d-flex justify-content-center align-items-center"
+            class="row d-flex justify-content-center align-items-center treatment-cards-wrapper"
             style="gap: 40px"
+            
           >
-            <div class="col-md-5">
+            <div class="col-md-5 tretment-cards-res">
               <div class="contaner card-container">
                 <div class="card-cover"></div>
                 <div class="listing-bg"></div>
@@ -604,7 +612,7 @@
                 <div class="listing-bg"></div>
                 <div class="card">
                   <div class="card-img-wrapper">
-                    <img src="Assets/images/cards/hairtreatment.jpg" alt="" />
+                    <img src="Assets/images/cards/hairtreatment.jpeg" alt="" />
                     <div class="overlay"></div>
                   </div>
                   <div class="intro">
@@ -693,7 +701,7 @@
     <div class="container-fluid">
       <!-- portfolio -->
 
-      <section class="pb-100">
+      <section class="pb-100 portfolio-main-wrapper">
         <div class="portfolio-wrapeer">
           <div class="portfolio-top">
             <div class="portfolio-top-text">
@@ -794,7 +802,7 @@
               </div>
 
               <div class="exp-option-text">
-                <span class="exp-option-text1">Plastic Surgery </span>
+                <span class="exp-option-text1">Medifacial </span>
                 <!-- <span class="exp-option-text2"
                   >Est placerat in egestas erat imperdiet sed euismod
                   nisi.</span
@@ -808,7 +816,7 @@
               </div>
 
               <div class="exp-option-text">
-                <span class="exp-option-text1">Transplantation</span>
+                <span class="exp-option-text1">Botox & Fillers</span>
                 <!-- <span class="exp-option-text2"
                   >Est placerat in egestas erat imperdiet sed euismod
                   nisi.</span
@@ -822,7 +830,7 @@
               </div>
 
               <div class="exp-option-text">
-                <span class="exp-option-text1">Peeling & Serum</span>
+                <span class="exp-option-text1">acne scars removal</span>
                 <!-- <span class="exp-option-text2"
                   >Est placerat in egestas erat imperdiet sed euismod
                   nisi.</span
@@ -868,23 +876,19 @@
     </section>
     <!-- doctors section -->
     <section class="pb-100">
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
         <div class="row">
           <div
             class="doctor-top-text d-flex justify-content-center flex-column align-items-center"
           >
             <span class="doctor-top-text1">our docters</span>
-            <h1>MEET OUR BEST SURGEONS</h1>
-            <span class="doctor-top-text3"
-              >Rirabitur et fius nunc. Aliquam erat volutpat. Sed ac pulvinar
-              sapien.volutpat ficitur ipsum vulputate finibus.</span
-            >
+            <h1>Meet Your Best Dermatologist</h1>
+           
           </div>
         </div>
 
-        <!-- doctor-images -->
         <div class="row">
-          <div class="col-3">
+          <div class="col-4 doc-contaner">
             <div class="doctor-content">
               <div class="d-img-wrapper">
                 <img src="Assets/images/doctor-image-1.webp" alt="" />
@@ -894,6 +898,129 @@
                 <span class="d-text2">Cosmetic Dermatologist</span>
               </div>
             </div>
+          </div>
+        </div>
+      </div> -->
+
+
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-5">
+            <div class="doctor-section-left-content">
+
+              <div class="doctor-section-first-text">
+                <span>About our Clinic</span>
+              </div>
+
+              <div class="doctor-section-left-content-heading">
+                <h1>Enjoy Specialized Care Through</h1>
+                <h1 style="color: #a92a7e;">Precision Experience</h1>
+              </div>
+
+              <div class="doctor-section-left-content-pera">
+              <span style="padding-bottom: 30px;">At Dr Ujjvala Jadhav is a known name and face in the world of Dermatologist in Mumbai, Cosmetology and Trichology, Venerology & Leprosy! She holds a FCPS, DVD and M.B.B.S and has a record of treating thousands of patients successfully.
+                Her professional journey as a doctor began 23 years ago from where she has only grown better in terms of experience and expertise. She believes that providing appropriate treatments of Dermatologist in Mumbai to her patients is her utmost priority</span>
+              
+              <span>The immensely positive feedback given by Ujjvala’s patients on various social platforms is only a testimony of her great sincerity and service towards her noble profession!</span>
+              </div>
+
+                 <div class="doctor-section-left-content-points">
+                  
+                 <div class="row">
+                  <div class="col-6">
+                      <div class="left-points">
+                        <div class="points-wrapper">
+                          <div class="tick-wraper">
+                            <i class="fa-solid fa-check"></i>
+                          </div>
+                          <span>Orthodontics </span>
+                        </div>
+                        <div class="points-wrapper">
+                          <div class="tick-wraper">
+                            <i class="fa-solid fa-check"></i>
+                          </div>
+                          <span>Orthodontics </span>
+                        </div>
+                        <div class="points-wrapper">
+                          <div class="tick-wraper">
+                            <i class="fa-solid fa-check"></i>
+                          </div>
+                          <span>Orthodontics </span>
+                        </div>
+
+                      </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="right-points">
+                      <div class="points-wrapper">
+                        <div class="tick-wraper">
+                          <i class="fa-solid fa-check"></i>
+                        </div>
+                        <span>Orthodontics </span>
+                      </div>
+                      <div class="points-wrapper">
+                        <div class="tick-wraper">
+                          <i class="fa-solid fa-check"></i>
+                        </div>
+                        <span>Orthodontics </span>
+                      </div>
+                      <div class="points-wrapper">
+                        <div class="tick-wraper">
+                          <i class="fa-solid fa-check"></i>
+                        </div>
+                        <span>Orthodontics </span>
+                      </div>
+                        
+                    </div>
+
+                  </div>
+                 </div>
+
+                 </div>
+                   <div class="doctor-section-left-content-points2">
+                    <div class="row">
+                      <div class="col-6">
+                    <div class="point2-left-wrapper">
+                      <div class="home-dec-icone-wrpper">
+                        <i class="fa-solid fa-house"></i>
+                      </div>
+                      <div class="point2-left-text-wrapper">
+                        <span class="point2-left-text1">20 Years</span>
+                        <span>Dental Experienced</span>
+                      </div>
+                    </div>
+
+                      </div>
+                      <div class="col-6">
+
+                        <div class="point2-left-wrapper">
+                          <div class="home-dec-icone-wrpper">
+                            <i class="fa-solid fa-house"></i>
+                          </div>
+                          <div class="point2-left-text-wrapper">
+                            <span class="point2-left-text1">12 Years</span>
+                            <span>Dental Experienced</span>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                   </div> 
+              
+            </div>
+
+          </div>
+          <div class="col-5">
+              <div class="doc-img-section">
+            <img src="Assets/images/about/doctor-main-about-image.jpeg" class="home-doc-img" alt="">
+            <div class="doc-info-card">
+              <div class="doc-info-text">
+                <span class="doc-info-text1">Certified Dentist</span>
+                <span class="doc-info-text2">Enjoy Specialized Care Through Precision Experience</span>
+              </div>
+            </div>
+            </div>
+           
           </div>
         </div>
       </div>
@@ -984,25 +1111,25 @@
             </div>
             <span class="f-l-text"><i class="fa-solid fa-phone"></i>
               +91 998 755 8210</span>
-            <span class="f-l-text"><i class="fa-solid fa-envelope"></i>aman@gmail.com</span>
+            <span class="f-l-text"><i class="fa-solid fa-envelope"></i>exmaple@gmail.com</span>
             <span class="f-l-text" style="line-height: 30px;"><i class="fa-solid fa-location-dot"></i>Ground floor, Virat CHS, D-41, Sai Rd, Gokuldham Colony, Goregaon, Mumbai</span>
           </div>
           </div>
-          <div class="col-2 f-col">
+          <div class="col-2 f-col f-section1">
             <h3>Main Menu</h3>
             <span>Home</span>
             <span>Services</span>
             <span>About</span>
             <span>Contact</span>
           </div>
-          <div class="col-2 f-col">
+          <div class="col-2 f-col f-section2">
             <h3>Main Menu</h3>
             <span>Home</span>
             <span>Services</span>
             <span>About</span>
             <span>Contact</span>
           </div>
-          <div class="col-2 f-col">
+          <div class="col-2 f-col f-section3">
             <h3>Main Menu</h3>
             <span>Home</span>
             <span>Services</span>
@@ -1017,13 +1144,54 @@
               <i class="fa-solid fa-paper-plane"></i>
             </div>
           </div>
-            <span style="line-height: 30px;">Dr. Ujjvala Jadhav, a renowned dermatologist in Mumbai, offers expert care in dermatology, cosmetology, and trichology with a track record of successful treatments spanning 23 years.</span>
+            <span class="f-long-text" style="line-height: 30px;">Dr. Ujjvala Jadhav, a renowned dermatologist in Mumbai, offers expert care in dermatology, cosmetology, and trichology with a track record of successful treatments spanning 23 years.</span>
           </div>
         </div>
         <hr>
       </div>
     
     </footer>
+
+<!-- mobile version code -->
+<div class="responsive-nav-wraper">
+  <div class="bars-wrapper" onclick="showmodal()">
+    <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <span>Menu</span>
+</div>
+
+<div class="body-overlay"></div>
+
+<div class="details">
+  <div class="sidebar-menu">
+   
+    <div class="side-cross">
+      <div class="side-cross-wrapper" onclick="closemodal()">
+      <i class="fa-solid fa-x"></i>  
+    </div>
+    </div>
+    <div class="side-item side-home">
+    <span>home</span>
+    </div>
+    <div class="side-item">
+      <span>about</span>
+    </div>
+    <div class="side-item">
+      <span>Treatments</span>
+    </div>
+    <div class="side-item" style="border-bottom: none;">
+      <span>contact</span>
+    </div>
+  </div>
+  
+
+  
+</div>
+
+</div>
 
     <script src="Assets/js/index.js"></script>
     <script

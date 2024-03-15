@@ -140,3 +140,194 @@ overflow: hidden;
     font-size: 17px;
     
 }
+
+
+/* tattoo removal page css */
+
+.tr-left-section{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.tr-main-img{
+ width: 100%;  
+
+}
+.tr-main-img img{
+    width: 100%;
+  height: 500px; 
+
+}
+.tr-heading-1 h1{
+font-size:45px;
+text-transform: uppercase;
+font-weight: 600;
+padding-top: 30px;
+}
+
+.tr-pera1 span{
+    font-size: 17px;
+    padding-top: 30px;
+    line-height: 32px;
+
+}
+.tr-sub-heading h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 30px;
+
+}
+.tr-pera2 span{
+    font-size: 17px;
+    padding-top: 30px;
+    line-height: 32px;
+
+}
+.tr-after-before-section{
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 30px;
+}
+
+.tr-ab-left span{
+font-size: 20px;
+}
+.tr-ab-right span{
+ font-size: 20px;
+
+}
+.tr-sub-heading2 h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 30px;
+
+}
+.tr-para-3 span{
+    font-size: 17px;
+    padding-top: 30px;
+    line-height: 32px;
+
+}
+.tr-video-section img{
+    padding-top: 30px;
+    width: 100%;
+  height: 400px; 
+
+}
+
+.tr-botoom-nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tr-nav-left span{
+font-size: 17px;
+}
+
+.tr-nav-right span{
+    font-size: 17px;
+
+}
+
+.tr-right-section{
+    background-color: white;
+    border: 1px solid rgb(132, 127, 127);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    
+
+}
+.tr-right-subsection{
+   width: 400px;
+   background-color: #fff7f1;
+
+
+}
+.tr-sub-section-top{
+  
+
+}
+.tr-sub-section-items{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    gap: 5px;
+
+}
+
+.tr-active{
+    background-color: #a92a7e;
+    color: white;
+}
+.tr-sub-line{
+    width: 20px;
+    height: 1.3px;
+    background-color: black;
+
+}
+.tr-act-line{
+    background-color: white;
+}
+
+.tr-sub-section-items span{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.tr-side-banner{
+    padding-top: 30px;
+    width: 400px;
+
+
+    
+    
+}
+
+.tr-side-banner img{
+   
+    
+}
+
+.tr-sidebar-contact{
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.tr-sidebar-contact-texts{
+
+}
+.tr-sidebar-contact-text1 span{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.tr-sidebar-contact-text2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+    padding-top: 20px;
+
+}
+.tr-sidebar-contact-text2 i{
+    font-size: 20px;
+
+    
+}
+.tr-sidebar-contact-text2 span{
+    font-size: 17px;
+    
+}
