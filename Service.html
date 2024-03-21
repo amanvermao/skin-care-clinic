@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="Assets/css/style.css" />
         <link rel="stylesheet" href="Assets/css/Service.css">
         <link rel="stylesheet" href="Assets/css/Contact.css" />
+        <link rel="stylesheet" href="Assets/css/responsive.css">
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -25,39 +26,39 @@
 <body>
    
     <div class="header">
-        <div class="top-header-wraper">
-          <div class="container-fluid">
-            <div class="row top-header">
-              <div class="col-6">
-                <div class="top-header-info">
-                  <div class="top-header-info-1">
-                    <span>+91 998 755 8210</span>
-                    <!-- <span>info@example.com</span> -->
-                  </div>
-                  <div class="top-header-info-2">
-                    Ground floor, Virat CHS, D-41, Sai Rd, Gokuldham Colony, Goregaon, Mumbai
-                  </div>
+      <div class="top-header-wraper">
+        <div class="container-fluid">
+          <div class="row top-header">
+            <div class="col-10">
+              <div class="top-header-info">
+                <div class="top-header-info-1">
+                  <span style="font-weight: 600;">+91 998 755 8210</span>
+                  <!-- <span>info@example.com</span> -->
+                </div>
+                <div class="top-header-info-2">
+               <span style="font-weight: 600;">Ground floor, Virat CHS, D-41, Sai Rd, Gokuldham Colony, Goregaon, Mumbai</span>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="social-icones">
-                  <div class="icones-wraper">
-                    <div class="icones">
-                      <i class="fa-brands fa-whatsapp"></i>
-                    </div>
-                    <div class="icones">
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </div>
-                    <div class="icones">
-                      <i class="fa-brands fa-instagram"></i>
-                    </div>
+            </div>
+            <div class="col-2">
+              <div class="social-icones">
+                <div class="icones-wraper">
+                  <div class="icones">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <div class="icones">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="icones">
+                    <i class="fa-brands fa-instagram"></i>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <hr />
         </div>
+        <hr />
+      </div>
         <!-- nav bar -->
         <div class="navbar-wraper">
           <div class="container-fluid">
@@ -76,62 +77,74 @@
                       ><li class="nav-item">
                       Treatments
                         <i class="fa-solid fa-angle-down fs-9 down-arrow"> </i>
-    
                         <ul class="submenue">
                          <li><a href="./DetailsPages/Lasers.html">Lasers</a>
                             <ul class="submenue2">
-                                <li> <a href="/DetailsPages/Subdetail/Lasers/LHR.html">Laser Hair removal</a></li>
-                                <li> <a href="#">tattoo removal</a></li>
-                                <li> <a href="#">stretch marks</a></li>
-                                <li> <a href="#">laser toning</a></li>
-                                <li> <a href="#">hifu</a></li>
-                                <li> <a href="#">hyperpigmentation</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/Lasers/LHR.html">Laser Hair removal</a> </li>
+                                <li> <a href="/DetailsPages/Subdetail/Lasers/TR.html">tattoo removal</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/Lasers/SM.html">stretch marks</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/Lasers/LT.html">laser toning</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/Lasers/hifu.html">hifu</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/Lasers/hpg.html">hyperpigmentation</a></li>
                             </ul>
                          </li>
-                         <li><a href="./DetailsPages/SkinT.html">skin treatments</a>
+                         <li><a href="/DetailsPages/SkinT.html">skin treatments</a>
                             <ul class="submenue3">
-                                <li> <a href="#"></a></li>
-                                <li> <a href="#">Acne/Acne Scars</a></li>
-                                <li> <a href="#">Botox</a></li>
-                                <li> <a href="#">Fillers</a></li>
-                                <li> <a href="#">PRP for Facial Rejuvunation</a></li>
-                                <li> <a href="#">Pigmentation Treatments</a></li>
-                                <li> <a href="#">Microdermabrasion</a></li>
-                                <li> <a href="#">Mesotherapy</a></li>
-                                <li> <a href="#">Facials</a></li>
-                                <li> <a href="#">Double Chin Treatments</a></li>
+                              
+                                <li> <a href="/DetailsPages/Subdetail/ST/Acne.html">Acne/Acne Scars</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/botox.html">Botox</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/filler.html">Fillers</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/PRPF.html">PRP for Facial Rejuvunation</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/PT.html">Pigmentation Treatments</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/microdermo.html">Microdermabrasion</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/Chemical-Peels.html">Chemical Peels</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/Mesotherapy.html">Mesotherapy</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/Facials.html">Facials <i class="fa-solid fa-caret-right"></i></a>
+                                <ul class="submenue7">
+                                  <li><a href="/DetailsPages/Subdetail/ST/Carbonfacial.html">Carbon / Charcoal Facial</a></li>
+                                  <li><a href="/DetailsPages/Subdetail/ST/Vampirefacial.html">Vampire facial</a></li>
+                                  <li> <a href="/DetailsPages/Subdetail/ST/Photofacial.html">Photofacial</a></li>
+                                  <li><a href="/DetailsPages/Subdetail/ST/Hydrafacial.html">Hydrafacial</a></li>
+                                </ul>
+                                </li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/DCT.html">Double Chin Treatments</a></li>
                               
                             </ul>
                          </li>
-                         <li><a href="./DetailsPages/Detmato.html">dermatosurgeries</a>
+                         <li><a href="/DetailsPages/Detmato.html">dermatosurgeries</a>
                             <ul class="submenue4">
-                                <li> <a href="#">Radio Frequcy Surgery For Skin Tags, Moles, Warts</a></li>
-                                <li> <a href="#">Nail Surgery</a></li>
-                                <li> <a href="#">Vitiligo Surgery</a></li>
-                                <li> <a href="#">Earlobe Repair</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/dermatosurgeries/RadioFrequcySurgery.html">Radio Frequcy Surgery For Skin Tags, Moles, Warts</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/dermatosurgeries/NailSurgery.html">Nail Surgery <i class="fa-solid fa-caret-right"></i></a>
+                                  <ul class="submenue8">
+                                    <li><a href="/DetailsPages/Subdetail/dermatosurgeries/Nailremoval.html">Nail Removal</a></li>
+                                    <li><a href="/DetailsPages/Subdetail/dermatosurgeries/ingrowtoenail.html">In-grown Toe Nail</a></li>
+                                  </ul>
+                                </li>
+                                <li> <a href="/DetailsPages/Subdetail/dermatosurgeries/vitiligo.html">Vitiligo Surgery</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/dermatosurgeries/EarlobeRepair.html">Earlobe Repair</a></li>
                             </ul>
                          </li>
-                         <li><a href="./DetailsPages/SkinP.html">skin problems</a>
+                         <li><a href="/DetailsPages/SkinP.html">skin problems</a>
                             <ul class="submenue5">
-                                <li> <a href="#">Acne</a></li>
-                                <li> <a href="#">Eczema</a></li>
-                                <li> <a href="#">Psoriasis</a></li>
-                                <li> <a href="#">Vitiligo</a></li>
-                                <li> <a href="#">Hyperpigmentation</a></li>
-                                <li> <a href="#">Allergies Or Hives</a></li>
-                                <li> <a href="#">Bacterial Infection</a></li>
-                                <li> <a href="#">Fungal Infection</a></li>
-                                <li> <a href="#">Viral Infection</a></li>
-                                <li> <a href="#">Hyper Hidrosis</a></li>
-                                <li> <a href="#">Dark Circles</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/ST/Acne.html">Acne</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/SkinProblems/Eczema.html">Eczema</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/SkinProblems/Psoriasis.html">Psoriasis</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/dermatosurgeries/vitiligo.html">Vitiligo</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/Lasers/hpg.html">Hyperpigmentation</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/SkinProblems/Allergies.html">Allergies Or Hives</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/SkinProblems/bacterial.html">Bacterial Infection</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/SkinProblems/fungal.html">Fungal Infection</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/SkinProblems/viral-infection.html">Viral Infection</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/SkinProblems/Hyper-Hidrosis.html">Hyper Hidrosis</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/SkinProblems/DarkCircles.html">Dark Circles</a></li>
                               
                             </ul>
                          </li>
-                         <li><a href="./DetailsPages/HairT.html">hair treatments</a>
+                         <li><a href="/DetailsPages/HairT.html">hair treatments</a>
                             <ul class="submenue6">
-                                <li> <a href="#">PRP For Hair</a></li>
-                                <li> <a href="#">Hair Mesotherapy</a></li>
-                                <li> <a href="#">Hair LOss And Care</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/HairT/PRP-for-hair.html">PRP For Hair</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/HairT/Hair-Mesotherapy.html">Hair Mesotherapy</a></li>
+                                <li> <a href="/DetailsPages/Subdetail/HairT/HairLoss.html">Hair Loss And Care</a></li>
                             </ul>
                          </li>
                          
@@ -300,7 +313,30 @@
 
 </div>
     </section>
- 
+    <script>
+      const navItems = document.querySelectorAll('.nav-items li');
+    
+    navItems.forEach(navItem => {
+      navItem.addEventListener('mouseenter', () => {
+        const submenue = navItem.querySelector('.submenue');
+        submenue.style.display = 'block';
+      });
+    
+      navItem.addEventListener('mouseleave', () => {
+        const submenues = navItem.querySelectorAll('.submenue');
+        submenues.forEach(submenue => {
+          const delayTimeout = setTimeout(() => {
+            submenue.style.display = 'none';
+          }, 500); // Delay of 500 milliseconds
+    
+          navItem.addEventListener('mouseenter', () => {
+            clearTimeout(delayTimeout);
+          });
+        });
+      });
+    });
+    
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

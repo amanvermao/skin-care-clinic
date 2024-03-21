@@ -142,7 +142,7 @@ function reveal1() {
   boxes.forEach(box => {
     const boxTop = box.getBoundingClientRect().top;
     const windowHeight = window.innerHeight;
-    if (boxTop < windowHeight * 0.75) {
+    if (boxTop < windowHeight * 0.95) {
       box.classList.add('visible1');
     } else {
       box.classList.remove('visible1');
@@ -197,11 +197,67 @@ function reveal4() {
   });
 }
 
+// Animate on load left
+window.addEventListener('DOMContentLoaded', () => {
+  revealOnLoadLeft();
+});
+
+function revealOnLoadLeft() {
+  const customBoxes = document.querySelectorAll('.custom-box');
+  customBoxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (boxTop < windowHeight * 0.75) {
+      box.classList.add('visible-box');
+    } else {
+      box.classList.remove('visible-box');
+    }
+  });
+}
+
+// Animate on load right
+window.addEventListener('DOMContentLoaded', () => {
+  revealOnLoadRight();
+});
+
+function revealOnLoadRight() {
+  const rightBoxes = document.querySelectorAll('.right-box');
+  rightBoxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (boxTop < windowHeight * 0.75) {
+      box.classList.add('visible-right');
+    } else {
+      box.classList.remove('visible-right');
+    }
+  });
+}
 
 
 
+// dillay in hinding subitems
+const navItems = document.querySelectorAll('.nav-items li');
+
+navItems.forEach(navItem => {
+  navItem.addEventListener('mouseenter', () => {
+    const submenue = navItem.querySelector('.submenue');
+    submenue.style.display = 'block';
+  });
+
+  navItem.addEventListener('mouseleave', () => {
+    const submenues = navItem.querySelectorAll('.submenue');
+    submenues.forEach(submenue => {
+      const delayTimeout = setTimeout(() => {
+        submenue.style.display = 'none';
+      }, 500); // Delay of 500 milliseconds
+
+      navItem.addEventListener('mouseenter', () => {
+        clearTimeout(delayTimeout);
+      });
+    });
+  });
+});
 
 
-// detail sidebar
 
 
