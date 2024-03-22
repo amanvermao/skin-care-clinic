@@ -1497,28 +1497,27 @@ font-size: 19px;
   border-radius: 50%;
   text-align: center;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
-.doctor-section-left-content-points2{
 
-}
 .point2-left-wrapper{
   display: flex;
   align-items: center;
   gap: 10px;
-
-
+  cursor: pointer;
 }
+
+
 .home-dec-icone-wrpper{
   width: 80px;
   height: 80px;
   background-color: white;
-text-align: center;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .home-dec-icone-wrpper i{
@@ -1556,6 +1555,7 @@ align-items: center;
 flex-direction: column;
 cursor: pointer;
 transition: 0.4s ease;
+font-family: "Montserrat", sans-serif;
 }
 .doc-info-card:hover{
   bottom: 20px;
@@ -1570,21 +1570,23 @@ transition: 0.4s ease;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding: 20px;
+  
 
+}
+.doc-info-text-toptext{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap:5px;
 }
 .doc-info-text1{
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 510;
 
   
 }
-.doc-info-text2{
-  
-}
-
-
 
 /* review sectio */
 .review-wrapper {
