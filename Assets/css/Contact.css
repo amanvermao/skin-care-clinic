@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+.contact-body-wrapper{
+  padding-top: 90px;
+}
 .header{
     height: 450px;
 }
@@ -139,7 +142,6 @@ pointer-events: none;
   top: 0; /* Added to cover the entire card */
   left: 0; /* Added to cover the entire card */
 }
-
 
 .con-left-contant{
     display: flex;

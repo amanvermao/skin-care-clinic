@@ -896,6 +896,10 @@ color: #ffc4eb;
   z-index: 111;
   mix-blend-mode: overlay;
 }
+
+.treatment-cards-wrapper{
+  gap: 40px;
+}
 /* .overlay1 {
   position: absolute;
   top: 0;
@@ -1584,8 +1588,11 @@ font-family: "Montserrat", sans-serif;
 .doc-info-text1{
   font-size: 30px;
   font-weight: 510;
-
   
+}
+.home-dec-icone-wrpper-icone{
+  width: 60px;
+  height: 60px;
 }
 
 /* review sectio */
