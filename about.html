@@ -739,31 +739,6 @@ With 100+ patients treated, 32+ services offered and 75+ success therapies, The 
 </div>
 
 <script>
-  const navItems = document.querySelectorAll('.nav-items li');
-
-navItems.forEach(navItem => {
-  navItem.addEventListener('mouseenter', () => {
-    const submenue = navItem.querySelector('.submenue');
-    submenue.style.display = 'block';
-  });
-
-  navItem.addEventListener('mouseleave', () => {
-    const submenues = navItem.querySelectorAll('.submenue');
-    submenues.forEach(submenue => {
-      const delayTimeout = setTimeout(() => {
-        submenue.style.display = 'none';
-      }, 500); // Delay of 500 milliseconds
-
-      navItem.addEventListener('mouseenter', () => {
-        clearTimeout(delayTimeout);
-      });
-    });
-  });
-});
-
-
- 
-
 // fade scroll
 
 window.addEventListener('scroll', reveal);

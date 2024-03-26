@@ -235,28 +235,28 @@ function revealOnLoadRight() {
 
 
 
-// dillay in hinding subitems
-const navItems = document.querySelectorAll('.nav-items li');
+// // dillay in hinding subitems
+// const navItems = document.querySelectorAll('.nav-items li');
 
-navItems.forEach(navItem => {
-  navItem.addEventListener('mouseenter', () => {
-    const submenue = navItem.querySelector('.submenue');
-    submenue.style.display = 'block';
-  });
+// navItems.forEach(navItem => {
+//   navItem.addEventListener('mouseenter', () => {
+//     const submenue = navItem.querySelector('.submenue');
+//     submenue.style.display = 'block';
+//   });
 
-  navItem.addEventListener('mouseleave', () => {
-    const submenues = navItem.querySelectorAll('.submenue');
-    submenues.forEach(submenue => {
-      const delayTimeout = setTimeout(() => {
-        submenue.style.display = 'none';
-      }, 500); // Delay of 500 milliseconds
+//   navItem.addEventListener('mouseleave', () => {
+//     const submenues = navItem.querySelectorAll('.submenue');
+//     submenues.forEach(submenue => {
+//       const delayTimeout = setTimeout(() => {
+//         submenue.style.display = 'none';
+//       }, 500); // Delay of 500 milliseconds
 
-      navItem.addEventListener('mouseenter', () => {
-        clearTimeout(delayTimeout);
-      });
-    });
-  });
-});
+//       navItem.addEventListener('mouseenter', () => {
+//         clearTimeout(delayTimeout);
+//       });
+//     });
+//   });
+// });
 
 
 

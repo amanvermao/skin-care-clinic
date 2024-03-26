@@ -1317,4 +1317,26 @@ display: none;
 .f-col-text-one{
   margin-top: 10px;
 }
+.subdetail-left-wrapper{
+  width: 100%;
+}
+.subdetail-right-wrapper{
+  display: none;
+
+}
+.tr-main-img img {
+  width: 100%;
+  height: 300px;
+}
+.tr-heading-1 h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.tr-video-section img {
+  padding-top: 30px;
+  width: 100%;
+  height:300px;
+}
 }
